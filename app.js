@@ -1,4 +1,4 @@
-import TodoList from './ToDoList.js';
+import TodoList from './classes/ToDoList.js';
 
 const todoList = new TodoList();
 
