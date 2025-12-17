@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ToDo Board</h1>
+
+    <div class="input-container">
+        <input type="text" id="task-input" placeholder="Enter new task">
+        <button id="add-button">Add</button>
+    </div>
+
+    <div class="controls">
+        <button id="sort-button" class="control-btn">Sort by date ↑</button>
+        <button id="reverse-button" class="control-btn">Reverse list</button>
+    </div>
+
+    <ul id="task-list" class="task-list"></ul>
+    <script type="module" src="./app.js"></script>
+</body>
+</html>
